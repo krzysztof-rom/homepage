@@ -1,0 +1,32 @@
+.footer {
+    background-color: #272727;
+    color: white;
+    padding: 1px 3%;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  
+.footer__link {
+    font-weight: bold;
+    background-color: #49a149;
+    color: #000;
+    text-decoration: none;
+    padding: 2px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  
+  .footer__link:focus {
+    border-style: solid;
+    border-width: 3px;
+    background-color: #347934;
+  }
+  
+  .footer__link:hover {
+    background-color: #347934;
+  }
+  
+  .footer__link:active {
+    background-color: #1b421b;
+    color: #fff;
+  }

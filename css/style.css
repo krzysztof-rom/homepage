@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  line-height: 2.25;
+  background-color: #eee;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bodySecondary {
+  background-color: #272727;
+  color: #eee;
+}
+
+.container {
+  overflow-x: auto;
+}

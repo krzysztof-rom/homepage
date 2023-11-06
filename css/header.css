@@ -1,0 +1,12 @@
+.header {
+    font-family: "Times New Roman", sans-serif;
+    color: #1b421b;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 10px -5px 10px #565656;
+    background-color: #eee;
+    border-radius: 50px;
+    margin: 10px 20%;
+  }
+
+  
