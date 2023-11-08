@@ -2,7 +2,9 @@
 
 https://krzysztof-rom.github.io/homepage/
 
-## This is My first Homepage
+## Intro
+
+**This is My first Homepage**
 
 You can switch background color by pressing button.
 
