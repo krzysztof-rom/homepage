@@ -1,12 +1,23 @@
-console.log("WITAJCIE!👋 Niech Kod będzie z wami 🔥🔥");
+{
+  const welcome = () => {
+    console.log("WITAJCIE!👋 Niech Kod będzie z wami 🔥🔥");
+  };
 
-let button = document.querySelector(".js-Button");
-let changeBackground = document.querySelector(".js-bodyStyle");
+  const toggleBackground = () => {
+    const changeBackground = document.querySelector(".js-bodyStyle");
+    const changeText = document.querySelector(".js-changeText");
+    changeBackground.classList.toggle("bodySecondary");
+    changeText.innerText = changeBackground.classList.contains("bodySecondary")
+      ? "Czas Na Oświecenie"
+      : "Niech Nastanie Ciemność";
+  };
 
-button.addEventListener("click", () => {
-  changeBackground.classList.toggle("bodySecondary");
+  const init = () => {
+    const button = document.querySelector(".js-Button");
+    button.addEventListener("click", toggleBackground);
 
-  button.innerText = changeBackground.classList.contains("bodySecondary")
-    ? "Czas Na Oświecenie"
-    : "Niech Nastanie Ciemność";
-});
+    welcome();
+  };
+
+  init();
+}
